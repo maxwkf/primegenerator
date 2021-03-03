@@ -7,7 +7,8 @@ function p($a,$b) {
 
 $list = [];
 $primeList=[];
-for($currentNumber=2;$currentNumber<=50000;$currentNumber++) {
+$range = 50000;
+for($currentNumber=2;$currentNumber<=$range;$currentNumber++) {
     
     
     // use currently found prime to filter out unecessary number first
